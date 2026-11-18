@@ -1,0 +1,13 @@
+[package]
+name = "fmtguru"
+version = "0.1.0"
+edition = "2024"
+description = "runtime string templates for Rust - named and positional placeholders like {name} rendered from key-value pairs, zero dependencies"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/StarcevAlexander/fmtguru"
+homepage = "https://github.com/StarcevAlexander/fmtguru"
+readme = "README.md"
+keywords = ["template", "format", "runtime", "placeholders", "strings"]
+categories = ["development-tools", "text-processing"]
+
+[dependencies]
