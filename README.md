@@ -1,15 +1,13 @@
-> **DEPRECATED:** this crate has been renamed to [`fmt-guru`](https://crates.io/crates/fmt-guru). New code should depend on `fmt-guru`.
-
-# fmtguru
+# fmt-guru
 
 **Runtime string templates for Rust** — `{name}` and `{0}` placeholders rendered from key-value pairs at runtime, with `{{` escaping. Complements the compile-time `format!` when the template arrives from a config file, database or user input.
 
-Zero dependencies.
+Zero dependencies. Formerly published on crates.io as `fmtguru`.
 
 ## Usage
 
 ```rust
-use fmtguru::Template;
+use fmt_guru::Template;
 
 fn main() {
     let template = Template::new("Hello {name}, you have {count} messages");
