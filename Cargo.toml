@@ -1,8 +1,8 @@
 [package]
 name = "fmtguru"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
-description = "runtime string templates for Rust - named and positional placeholders like {name} rendered from key-value pairs, zero dependencies"
+description = "DEPRECATED: renamed to fmt-guru - use that crate instead"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/StarcevAlexander/fmtguru"
 homepage = "https://github.com/StarcevAlexander/fmtguru"

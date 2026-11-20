@@ -1,3 +1,5 @@
+> **DEPRECATED:** this crate has been renamed to [`fmt-guru`](https://crates.io/crates/fmt-guru). New code should depend on `fmt-guru`.
+
 # fmtguru
 
 **Runtime string templates for Rust** — `{name}` and `{0}` placeholders rendered from key-value pairs at runtime, with `{{` escaping. Complements the compile-time `format!` when the template arrives from a config file, database or user input.
